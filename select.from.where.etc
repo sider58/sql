@@ -1,6 +1,6 @@
 notes-sql-14-11
 --------------------
-Exo1 : Ecrire la requête qui permet de selectionner les noms de famille et l'adresse email de l énsemble des consommateurs de la base donné "sakila"
+Exo1 : Ecrire la requête qui permet de selectionner les noms de famille et l'adresse email de l ensemble des consommateurs de la base donné "sakila"
 ------
 SELECT last_name, email
 FROM customer
