@@ -1,0 +1,21 @@
+notes-sql-14-11
+--------------------
+Exo1 : Ecrire la requête qui permet de selectionner les noms de famille et l'adresse email de l énsemble des consommateurs de la base donné "sakila"
+------
+SELECT last_name, email
+FROM customer
+------
+Exo 2 : Sélectionner toutes les transactions faite le 23 aout 2005
+------------
+SELECT *
+FROM payment
+WHERE DATE (payment_date)='2005-08-23'
+------------
+Exo 3 : Séléctionner les quinzes premières transactions faite le jour de la St Valentin de 2006
+--------------------
+SELECT *
+FROM payment
+WHERE DATE (payment_date)='2006-02-14'
+ORDER BY payment_date ASC
+LIMIT 15
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
